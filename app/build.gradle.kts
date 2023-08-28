@@ -4,13 +4,16 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pertemuann2"
-    compileSdk = 33
+    namespace = "com.example.pertemuan2"
+    compileSdk = 34
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
-        applicationId = "com.example.pertemuann2"
-        minSdk = 33
-        targetSdk = 33
+        applicationId = "com.example.pertemuan2"
+        minSdk = 30
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
